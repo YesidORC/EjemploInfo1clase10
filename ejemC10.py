@@ -6,6 +6,7 @@ def suma(c,d=10):
     """Esta esta una función para sumar """
     print(f"Hoy estamos a: {datetime.datetime.now()}")
     x= c+d+math.pi
+    print ("Hola mundo")
     return x
 
 def resta(c,d):
@@ -62,3 +63,4 @@ print(h1)
 
 # print(f"El resultado de la suma fue: 😎🤘: {suma()}")
 # print(f"El resultado de la resta fue: 😎🤘: {resta()}")
+
